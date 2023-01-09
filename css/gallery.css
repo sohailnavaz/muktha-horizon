@@ -1,0 +1,190 @@
+/* .pf{
+    height: 100vh;
+} */
+
+
+
+.pid img{
+    position: fixed;
+}
+
+.dab{
+    background-color: white;
+}
+
+@media screen and (max-width: 480px){
+.sticky img {
+    width: 6rem;
+}
+.pid img{
+    height: 100vh;
+    width: auto;
+}
+
+}
+
+
+
+
+.container{
+    height: 100vh;
+    margin-top: 5rem;
+}
+
+
+
+.jut{
+    text-align: justify;
+}
+
+
+
+
+section{
+    padding: 50px 0;
+}
+
+/*	gallery */
+
+.gallery-title{
+    font-size: 36px;
+    color: #3F6184;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.filter-button{
+    font-size: 18px;
+    border: 2px solid #3F6184;
+	padding:5px 10px;
+    text-align: center;
+    color: #3F6184;
+    margin-bottom: 30px;
+	background:transparent;
+}
+.filter-button:hover,
+.filter-button:focus,
+.filter-button.active{
+    color: #ffffff;
+    background-color:#3F6184;
+	outline:none;
+}
+.gallery_product{
+    margin: 0px;
+	padding:0;
+	position:relative;
+}
+.gallery_product .img-info{
+	position: absolute;
+    background: rgba(0,0,0,0.5);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+	overflow:hidden;
+	color:#fff;
+	top:0;
+	display:none;
+	   -webkit-transition: 2s;
+    transition: 2s;
+}
+
+.gallery_product:hover .img-info{
+	display:block;
+   -webkit-transition: 2s;
+    transition: 2s;
+}
+
+/*	end gallery */
+
+
+
+.section-1 h1{
+    font-size: 5rem;
+    color: goldenrod;
+    background-color: rgba(255, 255, 255, 0.598);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 1rem 1rem rgba(73, 62, 0, 0.711);
+}
+
+
+
+
+
+
+
+
+.img-1 {
+    background-image: url('../assets/images/interior/Balcony01.jpg');
+    min-height: 1000px; 
+
+  /*  The first picture will be larger.  */
+  }
+  /* .img-2 {
+    background-image: url('https://images.unsplash.com/photo-1636753260398-c0ce9f1268fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80');
+    min-height: 600px;
+  }
+  .img-3 {
+    background-image: url('https://images.unsplash.com/photo-1513407030348-c983a97b98d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80');
+    min-height: 600px;
+  }
+  .img-4 {
+    background-image: url('https://images.unsplash.com/flagged/photo-1559717865-a99cac1c95d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80');
+    min-height: 600px;
+  }
+  .img-5 {
+    background-image: url('https://images.unsplash.com/photo-1519832979-6fa011b87667?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1153&q=80');
+    min-height: 850px;
+  } */
+  
+  .img-1,
+  .img-2,
+  .img-3,
+  .img-4,
+  .img-5
+   {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+  /*  This is what makes the effect work. So that when we scroll the image, it retains its min-height with its attatchment fixed  */
+    filter: opacity(0.8) brightness(0.8);
+  }
+  
+  .section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+    padding: 30px;
+  }
+  .section p {
+    position: relative;
+    top: 12px;
+    font-size: 18px;
+    width: 500px;
+  }
+  
+  .section-1 {
+    position: relative;
+    top: 300px;
+    color: white;
+    font-size: 28px;
+  }
+  
+ 
+
+  
+  .section-2,
+  .section-3,
+  .section-4,
+  .section-5 {
+    background-color: rgb(255, 255, 255);
+    color: goldenrod;
+  }
+  
+.section-2 p{
+    color: black;
+}

@@ -1,0 +1,75 @@
+
+.sec a{
+    text-decoration: none;
+    color: black;
+}
+.sec a:hover{
+    text-decoration: none;
+    color: goldenrod;
+}
+ul {
+    list-style: none;
+    align-items: center;
+}
+
+.sec-1{
+    background-color:#000055 ;
+    width: 50vw;
+}
+
+/* .sec-0{
+    border-right: 40px;
+} */
+
+
+.hlf{
+text-align: center;
+
+}
+
+.hlf-1{
+    padding: 20px;
+}
+
+
+.hlf-1 ul{
+    text-align: left;
+}
+
+.lead{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.hlf-2 {
+    color: white;
+    padding: 20px;
+    
+}
+.hlf-2 a{
+    color: white;
+}
+
+.hlf-2 ul {
+    text-align: left;
+}
+
+.wrapper{
+    padding: 2rem;
+}
+.wrapper a img:hover{
+    transform: scale(1.5);
+}
+
+li img{ 
+    padding-right: 1rem;
+    padding-top: 2rem;
+}
+
+li a{
+    margin-top: 2rem;
+    text-align: start;
+    bottom: 0;
+}
+
+

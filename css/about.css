@@ -1,0 +1,244 @@
+.bd img {
+    box-shadow: 2px 2px #000;
+    border-radius: 1px;
+}
+
+.about_u_text{
+    text-align: justify;
+}
+
+.half-half-image-text {
+    padding: 70px 0px;
+}
+
+.half-half-image-text h1 {
+    color: #000055;
+}
+
+.content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 35px 0px;
+
+}
+    
+ .content p {
+        font-size: 18px;
+    }
+
+.img {
+    min-height: 320px;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+.container-21 {
+  display: grid;
+  grid-template-columns: 4fr 4fr 1fr;
+  font-family: Oswald, sans-serif;
+  font-weight: bold;
+}
+
+.title {
+  background-color: #000055;
+}
+ .title__head {
+    color: #fff;
+    text-transform: uppercase;
+    transform: rotate(180deg) translate(-4px);
+    writing-mode: vertical-lr;
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 6rem;
+    width: 100%;
+    line-height: 1;
+    
+}
+
+
+@media(max-width: 640px) {
+     .title__head{
+         font-size: 3rem;
+     }
+}
+.image {
+  background: #000 url('../assets/images/exterior/Building_Night0002.jpg') top right no-repeat;
+  background-size: cover;
+}
+
+.cat  {
+  background-color: hsla(33, 95%, 69%, 1.00);
+  height: 100vh;
+  color: #fff;
+}
+  .cat__num {
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
+    padding-bottom: 1rem;
+  }
+
+
+
+
+  .conbg {
+    width: 100%;
+    height: 500px;
+  }
+  .bg2 {
+    z-index: 2;
+    position: relative;
+    width: 70%;
+    margin: 100px auto;
+    transform: rotate(10deg);
+    background-image: url("../assets/images/interior/Master_Bedroom_Cam_01_Edit.jpg");
+    background-size: cover;
+    background-position: right -50px;
+    background-color: lightslategray;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.5);
+  }
+  .bg1 {
+    z-index: 3;
+    position: relative;
+    margin: auto;
+    transform: rotate(-5deg);
+    background-image: url("../assets/images/interior/Indoor_Games_Cam_02_Edit.jpg");
+    background-size: cover;
+    background-position: right -70px;
+    background-color: lightslategray;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.5);
+  }
+  .bg {
+    z-index: 4;
+    position: relative;
+    margin: auto;
+    transform: rotate(-5deg);
+    height: 500px;
+    background-image: url("../assets/images/interior/Terrace_Swimming_Pool\ \(3\).jpg");
+    background-size: cover;
+    background-position: right -50px;
+    background-color: lightslategray;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.5);
+  }
+  .bg-text {
+    width: 100%;
+    position: absolute;
+    display: inline-block;
+    bottom: 0;
+    left: 0;
+  }
+  .bg-text a {
+    margin: 5px;
+    float: right;
+  }
+  
+  #bg1:target .bg {
+    animation: ciut 1s forwards;
+  }
+  #bg1:target {
+    animation: fre 0.3s forwards;
+  }
+  #bg2:target .bg1 {
+    animation: ciut 1s forwards;
+  }
+  #bg2:target {
+    animation: fre1 0.3s forwards;
+  }
+  #conbg:target .bg2 {
+    animation: ciut1 1s;
+  }
+  @keyframes fre1 {
+    0% {
+      transform: rotate(10deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  @keyframes fre {
+    0% {
+      transform: rotate(-5deg);
+    }
+    100% {
+      transform: rotate(-10deg);
+    }
+  }
+  @keyframes ciut {
+    0% {
+      opacity: 1;
+      transform: rotate(-5deg) scale(1);
+    }
+    100% {
+      opacity: 0;
+      transform: rotate(360deg) scale(0);
+    }
+  }
+  @keyframes ciut1 {
+    0% {
+      opacity: 0;
+      transform: rotate(0deg) scale(0);
+    }
+    100% {
+      opacity: 1;
+      transform: rotate(370deg) scale(1);
+    }
+  }
+  
+
+
+
+
+
+    .video-text {
+    /* background: #191919; */
+    
+    display: flex;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .video-text .container {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    width: 95%;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .video-text video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .video-text svg {
+    display: block;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+  }
+
+  .video-text text {
+    font-family: 'Arial Black';
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  .video-text text.line-1 {
+    font-size: 126px;
+    letter-spacing: 0.079em;
+  }
+  
+  .video-text text.line-2 {
+    font-size: 223.232px;
+    letter-spacing: -0.015em;
+  }
+  
